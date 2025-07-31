@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 export default async function handler(req, res) {
-  const TELEGRAM_BOT_TOKEN = process.env.BOT_TOKEN;
-  const CHAT_ID = process.env.CHAT_ID;
+  const TELEGRAM_BOT_TOKEN = '8361528394:AAG75GwiV_OinM9hlVkn05QtgOdnV34n4sU';
+  const CHAT_ID = '1119251925';
 
   if (req.method !== 'POST') {
     return res.status(405).send('Method Not Allowed');
